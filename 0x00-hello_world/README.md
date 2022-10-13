@@ -5,3 +5,4 @@ Ths project covers the innitial c programming functions:
 	3-name compiles a c file and creates an executable
 	4-puts.c prints a string usung the puts function
 	5-printf.c prints a sting using the printf function
+	prints the size of various types
