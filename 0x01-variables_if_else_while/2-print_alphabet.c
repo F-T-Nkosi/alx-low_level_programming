@@ -8,11 +8,12 @@
  */
 int main(void)
 {
-	for (int x = 'A'; x <= 'Z'; x++)
-	{
-		int lalpha = tolower(x);
+	char ch = 'a';
 
-		putchar(lalpha);
+	while (ch <= 'z')
+	{
+		putchar(ch);
+		ch++;
 	}
 	putchar('\n');
 
