@@ -7,3 +7,5 @@ This project covers scripts using variables, if, else and while commands
 5-print_numbers.c prints the numbers from 0 to 9
 6-print_numberz.c prints numbers 0 to 9 using putchar
 7-print_tebahpla.c prints the alphabet in lowercase in reverse
+8-print_base16.c prints all the numbers of base 16 in lowercase
+9-print_comb.c prints all possible combinations of single digit numbers
