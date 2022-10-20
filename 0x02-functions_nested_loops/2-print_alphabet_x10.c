@@ -18,12 +18,8 @@ void print_alphabet_x10(void)
 		{
 			_putchar(j);
 			j++;
-			if (j+1 == 123)
-			{
-				_putchar('\n');
-			}
 		}
-		putchar('\n');
+		_putchar('\n');
 		i++;
 	}
 }
