@@ -4,4 +4,5 @@ programms included in this project
 2-print_alphabet_x10.c prints alphabet in lowercase 10 times
 3-islower.c checks for lower case and returns 1 if true and 0 if not
 4-isalpha.c checks if a character is a letter
+5-sign.c prints the sign of a number
 
