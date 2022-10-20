@@ -6,7 +6,7 @@
  *
  * Return: Always 1 if c is lower, else 0
  */
-int _islower(int c);
+int _islower(int c)
 {
 	if (c <= 57)
 	{
