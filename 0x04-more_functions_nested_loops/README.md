@@ -6,3 +6,5 @@ C programming project 4
 5-more_numbers.c functions prints numbers 0 to 14 10 times on a new line
 6-print_line.c function prints a line n units long
 7-print_diagonal.c draws a diagonal line on the screen
+8-print_square.c prints a sqaure
+9-fizz_buzz.c fizz buzz test
