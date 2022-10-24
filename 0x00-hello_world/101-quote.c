@@ -2,9 +2,9 @@
 #include<unistd.h>
 
 /**
- * main - prints qoute as is
+ * main - Entry point
  *
- * Retrun: Always 1 (Success)
+ * Return: Always 1 (Success)
  */
 int main(void)
 {
