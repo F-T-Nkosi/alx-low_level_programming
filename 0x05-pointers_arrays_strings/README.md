@@ -5,3 +5,4 @@ eointers Arrays and Strings
 3-puts.c prints out a given string
 4-print_rev.c prints a string in revers
 5-rev_string.c function reverses a string
+7-puts_half.c prints half a string
