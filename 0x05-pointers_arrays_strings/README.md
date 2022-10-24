@@ -6,3 +6,5 @@ eointers Arrays and Strings
 4-print_rev.c prints a string in revers
 5-rev_string.c function reverses a string
 7-puts_half.c prints half a string
+8-print_array.c prints n elements of an array
+9-strcpy.c copies a string from one pointer to another
