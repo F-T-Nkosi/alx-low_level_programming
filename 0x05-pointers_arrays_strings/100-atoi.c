@@ -20,6 +20,7 @@ int _atoi(char *s)
 	num = 0;
 
 	while (i < len && test == 0)
+	{
 		if (s[i] == '-')
 			++j;
 		if (s[i] >= '0' && s[i] <= '9')
@@ -28,11 +29,10 @@ int _atoi(char *s)
 				num = -num;
 			con = con * 10 + num;
 			test = 1;
-			if (s[i + 1] < '0' || s[i + 1] > '9')
-			{
+			if ((s[i + 1] < '0') || (s[i + 1] > '9'))
 				break;
-			}
 			test = 0;
+	}
 		i++;
 	if (test == 0)
 		return (0);
