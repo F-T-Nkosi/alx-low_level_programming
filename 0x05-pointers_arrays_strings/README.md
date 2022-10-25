@@ -8,3 +8,5 @@ eointers Arrays and Strings
 7-puts_half.c prints half a string
 8-print_array.c prints n elements of an array
 9-strcpy.c copies a string from one pointer to another
+100-atoi.c converts a string to an int
+101-keygen.c code that generates a valid password
