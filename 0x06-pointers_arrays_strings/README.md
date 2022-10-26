@@ -4,3 +4,4 @@ a-strcat.c concatenates two strings
 2-strncpy.c copies the first n elements of string src to dest and shows if n is greater than the length of src
 3-strcmp.c compares two strings
 4-rev_array.c reverses the order of an array
+5-string_toupper.c changes all letters to uppercase
