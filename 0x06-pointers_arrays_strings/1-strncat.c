@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include "main.h"
 
 /**
  * _strncat - appends string one and two wihin n bytes

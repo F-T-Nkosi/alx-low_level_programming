@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#include "main.h"
 /**
  * _strcat - Appends string two to the end of string one
  * @dest: is string one
