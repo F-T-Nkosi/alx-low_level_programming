@@ -5,3 +5,5 @@ a-strcat.c concatenates two strings
 3-strcmp.c compares two strings
 4-rev_array.c reverses the order of an array
 5-string_toupper.c changes all letters to uppercase
+6-cap_string.c makes the fist letter of every word upper case
+7-leet.c encodes a string into leet
