@@ -4,3 +4,4 @@
 2-strchr.c locates a matching character in a string
 3-strspn.c get length of prefix substring
 4-strpbrk.c searches a string for a set of bytes
+5-strstr.c locates a substring
