@@ -7,3 +7,4 @@
 5-strstr.c locates a substring
 7-print_chessboard.c prints a chessboard
 8-print_diagsums.c prints the sum of two diagonals in a sqaure mat
+100-set_string.c stes the value of a pointer to a char
