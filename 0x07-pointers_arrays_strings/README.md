@@ -5,3 +5,4 @@
 3-strspn.c get length of prefix substring
 4-strpbrk.c searches a string for a set of bytes
 5-strstr.c locates a substring
+7-print_chessboard.c prints a chessboard
