@@ -8,3 +8,4 @@
 returns the natural sqaure root of a number
 6-is_prime_number.c checks for prime inputs
 100-is_palindrome.c checks if a string is palindrome
+101-wildcmp.c compares two strings
