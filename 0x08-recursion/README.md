@@ -6,3 +6,4 @@
 3-factorial.c returns the factorial of an input
 4-pow_recursion.c raises x to the power y
 returns the natural sqaure root of a number
+6-is_prime_number.c checks for prime inputs
