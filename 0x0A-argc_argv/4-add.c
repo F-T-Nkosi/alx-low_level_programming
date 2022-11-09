@@ -1,4 +1,5 @@
 #include "main.h"
+#include<ctype.h>
 
 /**
  * main - prints the sum of numbers
@@ -8,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, sum = 0;
+	int i, j, sum = 0;
 
 	if (argc == 1)
 	{
@@ -18,14 +19,15 @@ int main(int argc, char *argv[])
 	{
 		for (i = 1; i < argc; i++)
 		{
-			if (*argv[i] < '0' || *argv[i] > '9')
+			sum += atoi(argv[i]);
+
+			for (j = 0; argv[i][j] > '\0'; j++)
 			{
-				printf("Error\n");
-				return (1);
-			}
-			else
-			{
-				sum += atoi(argv[i]);
+				if (argv[i][j] < '0' || argv[i][j] > '9')
+				{
+					printf("Error\n");
+					return (1);
+				}
 			}
 		}
 		printf("%d\n", sum);
