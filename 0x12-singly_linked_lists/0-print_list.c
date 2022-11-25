@@ -9,14 +9,14 @@ size_t print_list(const list_t *h)
 {
 	size_t count = 0;
 
-	if (str == NULL)
+	if (h == NULL)
 	{
 		printf("nil\n");
 		return (0);
 	}
 	while (h)
 	{
-		printf("%d\n", h->n);
+		printf("%s\n", h->str);
 		h = h->next;
 		count++;
 	}
